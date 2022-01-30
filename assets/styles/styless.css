@@ -275,3 +275,37 @@ header, main, footer {
     margin-top: 40px;
     margin-bottom: 17px;
 }
+
+/*section class="statistics"*/
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.statistic__card {
+    width: 324px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.statistic__number {
+    font-weight: 400;
+    font-size: 5.9rem;
+    line-height: 9rem;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.statistic__text {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
