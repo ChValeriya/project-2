@@ -369,6 +369,8 @@ header, main, footer {
     color: #6B6B6B;
 }
 
+/*section class="quote"*/
+
 .quote__container {
     max-width: 680px;
     margin: 0 auto;
@@ -417,4 +419,45 @@ header, main, footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/*section class="logos"*/
+
+.logos {
+    padding-top: 121px;
+    padding-bottom: 118px;
+    text-align: center;
+}
+
+@media screen and (max-device-width: 1008px) {
+    .logos__img {
+        width: 991px;
+    }
+}
+
+@media screen and (max-device-width: 990px) {
+    .logos__img {
+        width: 767px;
+    }
+}
+
+@media screen and (max-device-width: 766px) {
+    .logos__img {
+        width: 479px;
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+    .logos__img {
+        width: 320px;
+    }
+}
+
+/*section class="phones"*/
+
+.phones__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 518px;
+    background-image: url('../images/phones.png');
 }
