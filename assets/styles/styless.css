@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Gotic A1';
-    src: url('./Gothic_A1/GothicA1-Regular.ttf');
+    src: url('../Gothic_A1/GothicA1-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gothic A1';
-    src: url('./Gothic_A1/GothicA1-Bold.ttf');
+    src: url('../Gothic_A1/GothicA1-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
@@ -141,13 +141,18 @@ header, main, footer {
     flex-wrap: wrap;
 }
 
-.botton {
+.button {
     background-color: #FC0A7E;
     max-width: 170px;
     padding: 20px 40px;
 }
 
-.botton__text {
+.button__background {
+    background-color: #FC0A7E;
+    border: none;
+}
+
+.button__text {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.6rem;
