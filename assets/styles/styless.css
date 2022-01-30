@@ -309,3 +309,62 @@ header, main, footer {
     line-height: 2.4rem;
     color: #000000;
 }
+
+/*section class="examples"*/
+
+.examples {
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.example__card {
+    max-width: 1008px;
+    margin: 0 auto;
+    margin-bottom: 161px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.example__img {
+    max-width: 558px;
+    padding: 0 19.5px;
+}
+
+@media screen and (max-device-width: 557px) {
+    .example__png {
+        width: 320px;
+    }
+}
+
+.example__text {
+    max-width: 450px;
+    padding-left: 58px;
+    padding-right: 62px;
+}
+
+.example__title {
+    margin-top: 25px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    color: #000000;
+}
+
+.title__margin {
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.example__subtitle {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #6B6B6B;
+}
