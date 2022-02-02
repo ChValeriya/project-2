@@ -1,0 +1,57 @@
+/*section class="using"*/
+
+.using {
+    padding-top: 81.5px;
+}
+
+.using__card {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding-bottom: 158.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .using__image {
+    width: 558px;
+    text-align: center;
+ }
+
+ @media screen and (max-device-width: 386px) {
+    .using__png {
+        width: 320px;
+    }
+}
+
+ .using__text {
+    padding-left: 58px;
+    padding-right: 86px;
+ }
+
+.text__name {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    letter-spacing: 2px;
+    color: #A8A8A8;
+}
+
+.text__title {
+    max-width: 302px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-weight: 400;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    color: #000000;
+}
+
+.text__subtitle {
+    max-width: 306px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #6B6B6B;
+}
