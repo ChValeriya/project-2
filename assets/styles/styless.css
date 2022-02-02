@@ -191,9 +191,30 @@ header, main, footer {
 .main__img {
     margin: 0 auto;
     max-width: 1200px;
-    height: auto;
-    background-image: url('../images/tablet.png');
-    padding-bottom: 656px;
+}
+
+@media screen and (max-device-width: 1008px) {
+    .main__png {
+        width: 991px;
+    }
+}
+
+@media screen and (max-device-width: 990px) {
+    .main__png {
+        width: 767px;
+    }
+}
+
+@media screen and (max-device-width: 766px) {
+    .main__png {
+        width: 479px;
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+    .main__png {
+        width: 320px;
+    }
 }
 
 /*section class="using"*/
@@ -216,6 +237,12 @@ header, main, footer {
     width: 558px;
     text-align: center;
  }
+
+ @media screen and (max-device-width: 386px) {
+    .using__png {
+        width: 320px;
+    }
+}
 
  .using__text {
     padding-left: 58px;
@@ -333,12 +360,12 @@ header, main, footer {
 
 .example__img {
     max-width: 558px;
-    padding: 0 19.5px;
+    margin: 0 19.5px;
 }
 
 @media screen and (max-device-width: 557px) {
     .example__png {
-        width: 320px;
+        width: 280px;
     }
 }
 
@@ -492,9 +519,21 @@ header, main, footer {
     flex-wrap: wrap;
 }
 
+@media screen and (max-device-width: 371px) {
+    .start__buttons {
+        justify-content: center;
+    }
+}
+
 .button__width {
     max-width: 190px;
     margin-right: 10px;
+}
+
+@media screen and (max-device-width: 363px) {
+    .button__width {
+        margin: 1px;
+    }
 }
 
 /*section class="udates"*/
