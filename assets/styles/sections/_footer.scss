@@ -36,7 +36,7 @@
 
 .button__width {
     max-width: 190px;
-    margin-right: 10px;
+    margin-right: px;
 }
 
 @media screen and (max-device-width: 363px) {
@@ -74,10 +74,11 @@
 }
 
 .email__button {
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
     color: #1C1C1C;
+}
+
+.email__button:hover {
+    color: #FFFFFF;
 }
 
 .sign {

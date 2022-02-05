@@ -2,12 +2,17 @@
 
 .statistics {
     max-width: 1296px;
-    padding-top: 165px;
+    padding-top: 160px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     text-align: center;
+}
+
+.statistic__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 0;
 }
 
 .statistic__number {

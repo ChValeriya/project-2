@@ -179,26 +179,31 @@ header, main, footer {
 
 .button {
   background-color: #FC0A7E;
-  max-width: 170px;
+  border: 1px solid #FC0A7E;
+  max-width: 171px;
   padding: 20px 40px;
-}
-
-.button__background {
-  background-color: #FC0A7E;
-  border: none;
-}
-
-.button__text {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #FFFFFF;
 }
 
+.button:hover {
+  background: transparent;
+  border: 1px solid #B04BB3;
+}
+
+.cursor {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 295px;
+}
+
 /*section class="main"*/
 .main {
   background-color: #1B1B1B;
-  margin-top: -225px;
+  margin-top: -265px;
   padding-top: 100px;
   text-align: center;
 }
@@ -254,7 +259,7 @@ header, main, footer {
 
 /*section class="using"*/
 .using {
-  padding-top: 81.5px;
+  padding-top: 75px;
 }
 
 .using__card {
@@ -367,14 +372,21 @@ header, main, footer {
 /*section class="statistics"*/
 .statistics {
   max-width: 1296px;
-  padding-top: 165px;
+  padding-top: 160px;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px 0;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   text-align: center;
+}
+
+.statistic__card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 10px 0;
 }
 
 .statistic__number {
@@ -628,7 +640,7 @@ header, main, footer {
 
 .button__width {
   max-width: 190px;
-  margin-right: 10px;
+  margin-right: px;
 }
 
 @media screen and (max-device-width: 363px) {
@@ -665,10 +677,11 @@ header, main, footer {
 }
 
 .email__button {
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2.6rem;
   color: #1C1C1C;
+}
+
+.email__button:hover {
+  color: #FFFFFF;
 }
 
 .sign {

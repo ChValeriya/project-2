@@ -48,18 +48,23 @@
 
 .button {
     background-color: #FC0A7E;
-    max-width: 170px;
+    border: 1px solid #FC0A7E;
+    max-width: 171px;
     padding: 20px 40px;
-}
-
-.button__background {
-    background-color: #FC0A7E;
-    border: none;
-}
-
-.button__text {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.6rem;
     color: #FFFFFF;
+}
+
+.button:hover {
+    background: transparent;
+    border: 1px solid #B04BB3;
+}
+
+.cursor {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 295px;
 }
