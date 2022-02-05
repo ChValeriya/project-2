@@ -1,0 +1,31 @@
+/*section class="logos"*/
+
+.logos {
+    padding-top: 121px;
+    padding-bottom: 118px;
+    text-align: center;
+}
+
+@media screen and (max-device-width: 1008px) {
+    .logos__img {
+        width: 991px;
+    }
+}
+
+@media screen and (max-device-width: 990px) {
+    .logos__img {
+        width: 767px;
+    }
+}
+
+@media screen and (max-device-width: 766px) {
+    .logos__img {
+        width: 479px;
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+    .logos__img {
+        width: 320px;
+    }
+}

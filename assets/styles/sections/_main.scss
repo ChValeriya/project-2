@@ -1,0 +1,57 @@
+/*section class="main"*/
+
+.main {
+    background-color: #1B1B1B;
+    margin-top: -225px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main__name {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    letter-spacing: 2px;
+    color: #A8A8A8;
+}
+
+.main__title {
+    max-width: 607px;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    color: #FFFFFF;
+}
+
+.main__img {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media screen and (max-device-width: 1008px) {
+    .main__png {
+        width: 991px;
+    }
+}
+
+@media screen and (max-device-width: 990px) {
+    .main__png {
+        width: 767px;
+    }
+}
+
+@media screen and (max-device-width: 766px) {
+    .main__png {
+        width: 479px;
+    }
+}
+
+@media screen and (max-device-width: 479px) {
+    .main__png {
+        width: 320px;
+    }
+}

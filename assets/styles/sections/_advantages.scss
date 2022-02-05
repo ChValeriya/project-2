@@ -1,0 +1,27 @@
+/*section class="advantages"*/
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.advantage__card {
+    width: 432px;
+    padding: 0 30.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.advantage__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 17px;
+}

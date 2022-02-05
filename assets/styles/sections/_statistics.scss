@@ -1,0 +1,25 @@
+/*section class="statistics"*/
+
+.statistics {
+    max-width: 1296px;
+    padding-top: 165px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px 0;
+    text-align: center;
+}
+
+.statistic__number {
+    font-weight: 400;
+    font-size: 5.9rem;
+    line-height: 9rem;
+    color: #333333;
+}
+
+.statistic__text {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
