@@ -31,15 +31,12 @@
 
 .menu__point {
     margin-right: 35px;
+
+    &:last-child {
+        margin: 0;
+    }
 }
 
 .menu__link {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: #FFFFFF;
-}
-
-.menu__point:last-child {
-    margin: 0;
+    @include font(400, 1.5rem, 2rem, $col__1);
 }

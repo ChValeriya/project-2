@@ -1,0 +1,15 @@
+.button {
+    background-color: #FC0A7E;
+    border: 1px solid #FC0A7E;
+    max-width: 171px;
+    padding: 20px 40px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: $col__1;
+
+    &:hover {
+        background: transparent;
+        border: 1px solid #B04BB3;
+    }
+}
