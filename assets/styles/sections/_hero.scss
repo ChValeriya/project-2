@@ -28,38 +28,23 @@
 
 .hero__title {
     margin-bottom: 10px;
-    font-weight: 400;
-    font-size: 8rem;
-    line-height: 8rem;
-    color: #FFFFFF;
+    @include font(400, 8rem, 8rem, $col__1);
     display: flex;
     flex-wrap: wrap;
 }
 
 .hero__subtitle {
     margin-bottom: 25px;
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 4.4rem;
-    color: #FFFFFF;
+    @include font(400, 3rem, 4.4rem, $col__1);
     display: flex;
     flex-wrap: wrap;
 }
 
-.button {
-    background-color: #FC0A7E;
-    max-width: 170px;
-    padding: 20px 40px;
-}
+@import '../components/button';
 
-.button__background {
-    background-color: #FC0A7E;
-    border: none;
-}
-
-.button__text {
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    color: #FFFFFF;
+.cursor {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 295px;
 }

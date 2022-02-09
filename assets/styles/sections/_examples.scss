@@ -39,10 +39,7 @@
 .example__title {
     margin-top: 25px;
     margin-bottom: 22px;
-    font-weight: 400;
-    font-size: 3.8rem;
-    line-height: 4.8rem;
-    color: #000000;
+    @include font(400, 3.8rem, 4.8rem, $col__2);
 }
 
 .title__margin {
@@ -51,8 +48,5 @@
 }
 
 .example__subtitle {
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 3rem;
-    color: #6B6B6B;
+    @include font(400, 1.6rem, 3rem, $col__3);
 }

@@ -6,26 +6,20 @@
     text-align: center;
 }
 
-@media screen and (max-device-width: 1008px) {
-    .logos__img {
+.logos__img {
+    @media screen and (max-device-width: 1008px) {
         width: 991px;
     }
-}
 
-@media screen and (max-device-width: 990px) {
-    .logos__img {
+    @media screen and (max-device-width: 990px) {
         width: 767px;
     }
-}
 
-@media screen and (max-device-width: 766px) {
-    .logos__img {
+    @media screen and (max-device-width: 766px) {
         width: 479px;
     }
-}
 
-@media screen and (max-device-width: 479px) {
-    .logos__img {
+    @media screen and (max-device-width: 479px) {
         width: 320px;
     }
 }
